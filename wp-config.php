@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         ' )LDODwh!pv}9K-_1v$T|RseHV`L/+/!nxt$0`H~*g-qwFyKB#F ^I>ZT-f]tCGh');
-define('SECURE_AUTH_KEY',  'C,VR<KL}ZK,g=!$?y3_jk-=E!@-W,..4jVusezlj$O&j!j/qE]^x(6QSL<+amJ|C');
-define('LOGGED_IN_KEY',    'WPyW[Ny@1JLVtoG(-b)Ymy%emj$Y<7J|}t3`{?Q>|:)!PgjHe^kvJCz|l#jcOTyh');
-define('NONCE_KEY',        'exV[U/A1F=}PY]{14]C,PyX|lVP0Wk/A4E|+B;+ga.dN^jZC0pe4M4|AphyXHhxg');
-define('AUTH_SALT',        '{&+~8*m[{ioG3RN~u|GH;UHvIaa}~-!8fdC4Vv5+_<*/!!k=$}}a=Q]IEyoU*j7i');
-define('SECURE_AUTH_SALT', '_[e5l9&q`i+#|ZU-KVyD4b9.T|BdXHm~uQezJ?GX5Q_4S*JW{Q-| ,8M3fw5xSO2');
-define('LOGGED_IN_SALT',   'T:6*KUZrKKcF]d(-KwR%FVT3?lNL)1;k.[LLbz>uV$-K KPBzqvbb?.-e+e+5xf9');
-define('NONCE_SALT',       'sUpF$e25nX5sx-lm,,jX>ZCIG=K}iNEJEo S;2kG`fpt|x>]cZ5fQdWV|j^URcxK');
+define('AUTH_KEY',         'l]Y~uDS-.w#n_i 2.3h-Q{-#VDmROdf,@dOaz`M:Y@IjVD}p/IX)Aj +X4<vw-X:');
+define('SECURE_AUTH_KEY',  'ImokQq; 4rrkk+t:`5z0R/`(AW5bWn3X +A}WMxJ(2Z;>.fIwg-mod*ShQ[rL@G3');
+define('LOGGED_IN_KEY',    '_={j11GM/GeM]RR$mq@/}{A-+9Z${fqmMJo_}B9@+U1lztn,%E/^/%#6:tDJ-F*t');
+define('NONCE_KEY',        'ly[*TKdTWE#Lr&9dz^9d|Z/]M|2mjK-7.-@bN~2C*U~uV4~l0=9_j.W%x?)-YZ9`');
+define('AUTH_SALT',        '^!/eF>/}K$?^*5jjOJB,lp#`<0 UL|+OExnuK{E>$fB!NT*$.-7ogB_$WTH|9lP^');
+define('SECURE_AUTH_SALT', 'Q]C;Q;QJ=O-*%?v1XOwj@/,b&OW6w~h^`JlB|%Ja<xolxk`;io p|f!w;8>Q}19>');
+define('LOGGED_IN_SALT',   'TCd|`|..j|k-w@8g4yuw%Av?RCj~TbftOd{S0!u]M:PWkiY:rFUsak4x$1].uy!M');
+define('NONCE_SALT',       ';lg<Gc9kT8c,]9! 1^q(Ek!QTjT1TeKwgeeL$l&hwop?6+5K@^kXi.=`o`-7%{p+');
 /**#@-*/
 
 /**
@@ -66,7 +66,7 @@ define('NONCE_SALT',       'sUpF$e25nX5sx-lm,,jX>ZCIG=K}iNEJEo S;2kG`fpt|x>]cZ5f
  * si vous leur donnez chacune un préfixe unique. 
  * N'utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés!
  */
-$table_prefix  = 'cakelms_';
+$table_prefix  = 'cklms_';
 
 /** 
  * Pour les développeurs : le mode deboguage de WordPress.
